@@ -1,4 +1,4 @@
-author: mongoose-os
+author: Alexander Galilov <alexander.galilov@gmail.com>
 description: A Mongoose OS app skeleton
 version: 1.0
 
@@ -45,12 +45,18 @@ filesystem:
 # config_schema:
 #  - ["debug.level", 3]
 
+config_schema:
+  - ["app", "o", {title: "My mug controller"}]
+
 libs:
   - origin: https://github.com/mongoose-os-libs/boards
   - origin: https://github.com/mongoose-os-libs/ca-bundle
   - origin: https://github.com/mongoose-os-libs/rpc-service-config
   - origin: https://github.com/mongoose-os-libs/rpc-service-fs
   - origin: https://github.com/mongoose-os-libs/rpc-uart
-
+  - origin: https://github.com/mongoose-os-libs/wifi
+  - origin: https://github.com/mongoose-os-libs/adc
+  - origin: https://github.com/mongoose-os-libs/mjs
+  - origin: https://github.com/mongoose-os-libs/mqtt
 # Used by the mos tool to catch mos binaries incompatible with this file format
 manifest_version: 2017-09-29
