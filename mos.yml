@@ -64,11 +64,12 @@ libs:
   - origin: https://github.com/mongoose-os-libs/rpc-uart
   - origin: https://github.com/mongoose-os-libs/wifi
   - origin: https://github.com/mongoose-os-libs/http-server
+  - origin: https://github.com/mongoose-os-libs/gcp
   - origin: https://github.com/mongoose-os-libs/adc
   - origin: https://github.com/mongoose-os-libs/mjs
   - origin: https://github.com/mongoose-os-libs/mqtt
-#  - origin: https://github.com/mongoose-os-apps/example-neopixel-c
-  - origin: https://github.com/mongoose-os-libs/neopixel
+  - origin: https://github.com/galilov/neopixel
+    version: 2.15.ag
   - origin: https://github.com/tripflex/wifi-captive-portal
 # Used by the mos tool to catch mos binaries incompatible with this file format
 manifest_version: 2017-09-29
